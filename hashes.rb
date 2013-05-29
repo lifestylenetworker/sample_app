@@ -1,5 +1,7 @@
 class Hashes
 
+	attr_accessor :person1, :person2, :person3
+
 	def initialize()
 
 		@person1 = {first: "Tom", last: "Hansen"}
