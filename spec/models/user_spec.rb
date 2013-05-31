@@ -25,7 +25,7 @@ describe User do
   	it { should_not be_valid }
   end
 
-  describe "When password confirmation is nill" do
+  describe "When password confirmation is nil" do
   	before { @user.password_confirmation = nil }
   	it { should_not be_valid }
   end
